@@ -23,3 +23,5 @@ for (let i = 1; i <= 100; i++) {
     gridString += `<div class="square ${name} ${color}">${i}</div>`;
     console.log(`iterazione ${i}`, gridString);
 }
+
+rowElem.innerHTML = gridString;
