@@ -20,7 +20,18 @@ for (let i = 1; i <= 100; i++) {
         color = "white";
     }
 
-    gridString += `<div class="square ${name} ${color}">${i}</div>`;
+    let result;
+    if (name === "FizzBuzz") {
+        result = name;
+    } else if (name === "Fizz") {
+        result = name;
+    } else if (name === "Buzz") {
+        result = name;
+    } else {
+        result = i;
+    }
+
+    gridString += `<div class="square ${color}">${result}</div>`;
     console.log(`iterazione ${i}`, gridString);
 }
 
