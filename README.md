@@ -24,4 +24,4 @@ Scrivere la base di html.
    Fine ciclo.
 
 **OUTPUT**
-1. Stampo il numero e la parola.
+1. Stampo il numero o la parola.
